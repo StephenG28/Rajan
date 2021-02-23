@@ -1,0 +1,14 @@
+touch
+cd
+tar -zvxf
+mkdir
+find
+locate
+source ~/
+ps
+hostname -i
+ifconfig
+scp -i
+cp
+mv
+

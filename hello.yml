@@ -1,0 +1,6 @@
+---
+- name: print hello
+  hosts: localhost
+  tasks:
+    - name: hello
+      debug: msg="heloooo"

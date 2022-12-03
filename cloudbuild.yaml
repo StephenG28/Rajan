@@ -5,6 +5,6 @@ steps:
   args: ['push', 'gcr.io/$PROJECT_ID/myimage']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'myfirstrun', '--image', 'gcr.io/$PROJECT_ID/myimage', '--region', 'us-central1', '--allow-unauthenticated', '--container-port', '80']
+  args: ['run', 'deploy', 'myfirstrun', '--image', 'gcr.io/$PROJECT_ID/myimage', '--region', 'us-central1', '--allow-unauthenticated']
 images:
 - gcr.io/$PROJECT_ID/myimage
